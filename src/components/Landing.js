@@ -3,7 +3,6 @@ import Link from "next/link"
 
 const Landing = () => {
   return (
-    <>
         <div className='text-center bg-white pb-10'>
             <div className='w-60 mx-auto'>
                 <Image src={"/watchmovie.png"} height={250} width={250} alt=""/>
@@ -15,8 +14,6 @@ const Landing = () => {
             </Link>
             
         </div>
-
-    </>
   )
 }
 
