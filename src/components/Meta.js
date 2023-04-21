@@ -15,7 +15,7 @@ const Meta = ({keywords, description, title}) => {
 }
 
 Meta.defaultProps = {
-    title: 'AppName',
+    title: 'What\'s poppin\'',
     keywords: 'movie app, popular',
     description: 'list of movies'
 }
