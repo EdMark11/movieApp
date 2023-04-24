@@ -5,7 +5,7 @@ import Popular from "@/components/Popular";
 
 export default function Home({movies}) {
   return (
-    <div className="bg-teal-700">
+    <div className="">
       <Landing />
       <Popular movies={movies.results}/>
     </div>
