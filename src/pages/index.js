@@ -5,7 +5,7 @@ import Popular from "@/components/Popular";
 
 export default function Home({movies}) {
   return (
-    <div className="">
+    <div className="bg-[url('../../public/MovieCurtains.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
       <Landing />
       <Popular movies={movies.results}/>
     </div>
