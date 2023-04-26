@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Navbar = () => {
   return (
-    <nav className="bg-teal-800">
+    <nav className="bg-slate-800">
         <div className="font-bold text-neutral-100 p-4 max-w-7xl mx-auto container tracking-widest">
             <Link legacyBehavior href="/">
                 <a className="text-base md:text-2xl">What's
